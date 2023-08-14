@@ -23,7 +23,7 @@ cart.forEach((cartItem)=>
     `<div class="cart-item-container js-cart-item-${matchProduct.id}">
     <div class="cart-item-details-grid-">
       <img class="product-image"
-        src="../JS/${matchProduct.image}">
+        src="JS/${matchProduct.image}">
       <div class="cart-item-details">
         <div class="product-name">
           ${matchProduct.name}
