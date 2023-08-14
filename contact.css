@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+.contact-header
+{
+    
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../img/3615135.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    margin-top: 60px;
+}
+
+.contact-main
+{
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.map
+{
+    width: 50%;
+}
+.map iframe
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width:477px)
+{
+    .contact-main{
+        flex-direction: column;
+    }
+    .map{
+        width: 100%;
+    }
+}
+.contact-h2
+{
+    color: whitesmoke;
+}
+
+.info li{
+    list-style: none;
+}

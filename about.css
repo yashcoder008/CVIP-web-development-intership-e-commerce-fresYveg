@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+body
+{
+    
+    background-image:linear-gradient(to bottom,white,whitesmoke);
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-header
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../img/3615135.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 61px;
+}
+
+.about-con
+{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+.about-con img{
+    margin-right: 50px;
+    width: 50%;
+}
+
+@media (max-width:477px) {
+    .about-con
+    {
+        flex-direction: column;
+    }
+    .about-con img
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-con .con{
+        margin-right: 20px;
+    }
+}
+
+.about-h2
+{
+    color: whitesmoke;
+}
+
+#footer
+{
+    background-image: url(../img/OIP.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    padding-left: 20px;
+    padding-top: 3rem;
+    height: 270px;
+    gap: 3rem;
+}
+.contact p
+{
+    font-size: 0.9rem;
+}
+.contact p span{
+    font-weight: bolder;
+    font-size: 1rem;
+}
