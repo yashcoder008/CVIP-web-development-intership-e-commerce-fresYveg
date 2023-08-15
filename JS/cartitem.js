@@ -10,9 +10,6 @@ if(!cart)
     ];
 
 };
-
-
-
 function saveToLocal(){
     localStorage.setItem('cart',JSON.stringify(cart));
 }
