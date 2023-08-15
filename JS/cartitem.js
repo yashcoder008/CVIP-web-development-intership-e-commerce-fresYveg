@@ -17,7 +17,7 @@ if(!cart)
 }
 
 
-function saveToLocal(){
+export function saveToLocal(){
     localStorage.setItem('cart',JSON.stringify(cart));
 }
 
