@@ -1,4 +1,5 @@
-export let cart = JSON.parse(localStorage.getItem('cart'))
+export let cart =[];
+   
 
 if(!cart)
 { 
@@ -10,7 +11,10 @@ if(!cart)
     ];
 
 };
- 
+ else
+{
+    cart=JSON.parse(localStorage.getItem('cart'))
+}
 
 
 function saveToLocal(){
